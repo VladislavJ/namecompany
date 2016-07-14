@@ -1,0 +1,112 @@
+@media only screen and (max-width : 1200px){
+	.header{
+		&__link{
+			font-size: 12px;
+		}
+	}
+}
+@media only screen and (max-width : 1024px){
+	.header{
+		background-position: -805px 60px;
+		&__main{
+			height: 60px;
+		}
+		&__name{
+			font-size: 12px;
+			margin-left: 10px;
+		}
+		&__topmenu{
+			line-height: 60px;
+		}
+		&__circle{
+			width: 40px;
+			height: 40px;
+			border: 1px solid #fff;
+		}
+		&__icon{
+			width: 28px;
+			height: 25px;
+		}
+		&__none{
+			display: none;
+		}
+		&__paragraph{
+			display: none;
+		}
+		&__title{
+			font-size: 26px;
+		}
+		&__callback{
+			margin: 0 0 6px 0;
+		}
+		&__content{
+			align-items: end;
+			padding-bottom: 25px;
+		}
+		&__menu{
+			height: 60px;
+			justify-content: space-between;
+		}
+		&__phone{
+			position: static;
+			color: #6b5c4d;
+			font-size: 14px;
+		}
+		&__burger{
+			display: block;
+			cursor: pointer;
+			font-size: 12px;
+			color: #fff;
+			text-transform: uppercase;
+		}
+		&__list{
+			position: absolute;
+			left: -280px;
+			top: 60px;
+			margin: 0;
+			text-align: center;
+		}
+		&__item{
+			padding: 22px 115px;
+			margin-left: 0;
+			background-color: rgba( 0, 0, 0, 0.8 );
+			border-bottom: 2px solid #f5d31d;
+			&:first-child{
+				background: #f5d31d;
+				border-bottom: 0;
+			}
+			&:first-child .header__link{
+				color: #000;
+			}
+			&:last-child{
+				display: none;
+			}
+			&:nth-child(4){
+				border-bottom: 0;
+			}
+			&:hover{
+				background: #f5d31d;
+				color: #000;
+			}
+			&:hover .header__link{
+				color: #000;
+			}
+		}
+		&__topmenu{
+			line-height: 20px;
+		}
+	}
+}
+@media only screen and (max-width : 360px){
+	.header{
+		&__item{
+			padding: 20px 132px;
+		}
+		&__list{
+			left: -299px;
+		}
+		&__title{
+			font-size: 21px;
+		}
+	}
+}

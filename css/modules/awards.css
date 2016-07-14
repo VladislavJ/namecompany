@@ -1,0 +1,20 @@
+.awards{
+	.title{
+		font-family: 'Roboto', sans-serif;
+		color: #fff;
+		font-weight: 300;
+		font-size: 30px;
+		&:before{
+			content: '';
+			position: absolute;
+			width: 56px;
+			height: 2px;
+			left: 0;
+			right: 0;
+			bottom: -70px;
+			top: 0;
+			margin: auto;
+			border-bottom: 2px solid #ffe600;
+		}
+	}
+}

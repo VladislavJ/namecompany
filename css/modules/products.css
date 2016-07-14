@@ -1,0 +1,95 @@
+.products{
+	font-family: 'Roboto', sans-serif;
+	background: url(../img/bg2.jpg) no-repeat;
+	padding-top: 105px;
+	padding-bottom: 15px;
+	&__title{
+		color: #000;
+		font-size: 30px;
+		font-weight: 300;
+		text-transform: uppercase;
+		text-align: center;
+		position: relative;
+		margin-bottom: 80px;
+		&:before{
+			content: '';
+			position: absolute;
+			width: 56px;
+			height: 2px;
+			left: 0;
+			right: 0;
+			bottom: -70px;
+			top: 0;
+			margin: auto;
+			border-bottom: 2px solid #ffe600;
+		}
+	}
+	&__block{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-bottom: 90px;
+	}
+	&__photo{
+		position: relative;
+		width: 250px;
+		height: 260px;
+	}
+	&__hover{
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		background: rgba(0,0,0,0.5);
+		display: none;
+		line-height: 250px;
+		color: #fff;
+		margin: auto;
+		text-align: center;
+		font-size: 25px;
+		font-weight: 300;
+		font-style: italic;
+		text-transform: uppercase;
+		cursor: pointer;
+		&:hover{
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+	&__square{
+		position: relative;
+		background: url(../img/sq1.jpg) no-repeat;
+		width: 250px;
+		height: 260px;
+		margin: 13px 13px;
+		box-shadow: 4.5px 7.794px 5px 0px rgba( 0, 0, 0, 0.5);
+		position: relative;
+		cursor: pointer;
+		&:hover .products__hover{
+			display: block;
+		}
+		&:hover:after{
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-top: 150px solid #f5d31d; 
+			border-left: 150px solid transparent;
+			right: 0;
+		}
+		&:hover:before{
+			content: '100% качество';
+			max-width: 75px;
+			transform: rotate(49deg);
+			position: absolute;
+			z-index: 1;
+			font-size: 15px;
+			color: #010101;
+			font-weight: 400;
+			text-align: center;
+			top: 25px;
+			right: 5px;
+		}
+	}
+}

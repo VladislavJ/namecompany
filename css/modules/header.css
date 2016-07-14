@@ -1,0 +1,165 @@
+.header{
+	font-family: 'Roboto', sans-serif;
+	background: url(../img/bg1.jpg) no-repeat center center;
+	height: 100vh;
+	&__main{
+		background: #000;
+		height: 120px;
+		width: 100%;
+		position: fixed;
+		z-index: 1;
+	}
+	&__topmenu{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: relative
+	}
+	&__circle{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 75px;
+		height: 75px;
+		border: 2px solid #eee;
+		border-radius: 50%;
+	}
+	&__name{
+		font-size: 15px;
+		color: #6b5c4d;
+		text-transform: uppercase;
+		margin-left: 17px;
+	}
+	&__menu{
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		height: 120px;
+		position: relative;
+	}
+	&__list{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		list-style-type: none;
+		padding: 0;
+		margin: 0 20px 0 0;
+	}
+	&__item{
+		margin-left: 55px;
+		&:first-child{
+			margin-left: 0;
+		}
+		&:first-child .header__link{
+			color: #f5d31d;
+		}
+	}
+	&__active{
+		color: #f5d31d;
+	}
+	&__link{
+		font-size: 15px;
+		font-weight: 300;
+		color: #8e8e8e;
+		text-transform: uppercase;
+		&:hover,&:focus,&:active{
+			color: #f5d31d;
+			text-decoration: none;
+		}
+	}
+	&__button{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 140px;
+		height: 40px;
+		color: #000;
+		background: #f5d31d;
+		&:hover,&:focus,&:active{
+			color: #000;
+		}
+	}
+	&__phone{
+		position: absolute;
+		bottom: 10px;
+		right: 40px;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+	}
+	&__content{
+		display: flex;
+		align-items: center;
+		height: 100vh;
+	}
+	&__block{
+		text-align: center;
+	}
+	&__paragraph, &__title{
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+	&__icon2, &__arrow{
+		display: block;
+		margin: auto;
+	}
+	&__callback, &__price{
+		width: 300px;
+		height: 60px;
+		display: inline-block;
+		line-height: 60px;
+		font-size: 15px;
+		font-weight: 300;
+		text-transform: uppercase;
+		vertical-align: top;
+	}
+	&__paragraph{
+		margin: 60px 0 0 0;
+		font-size: 15px;
+		color: #fff;
+	}
+	&__title{
+		font-size: 48px;
+		color: #ffe600;
+		margin: 40px 0 100px 0;
+	}
+	&__callback{
+		border: 0;
+		background: #f5d31d;
+		color: #000;
+		margin-right: 14px;
+		&:hover, &:focus, &:active{
+			color: #000;
+			text-decoration: none;
+		}
+	}
+	&__price{
+		border: 1px solid #f5d31d;
+		background: none;
+		color: #fff;
+		&:hover, &:focus, &:active{
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+	&__arrow{
+		margin-top: 60px;
+		cursor: pointer;
+	}
+	&__burger{
+		display: none;
+		position: relative;
+	}
+	&__logo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__caret{
+		position: relative;
+		top: -2px;
+	}
+	.open{
+		display: block;
+	}
+}

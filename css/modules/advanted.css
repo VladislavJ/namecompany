@@ -1,0 +1,59 @@
+.advant{
+	font-family: 'Roboto', sans-serif;
+	background: #f5d31d;
+	padding: 108px 0 75px 0;
+	&__title{
+		font-size: 30px;
+		color: #000;
+		font-weight: 300;
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0;
+		position: relative;
+		&:before{
+			content: '';
+			position: absolute;
+			width: 56px;
+			height: 2px;
+			left: 0;
+			right: 0;
+			bottom: -70px;
+			top: 0;
+			margin: auto;
+			border-bottom: 2px solid #fff;
+		}
+	}
+	&__circle{
+		width: 168px;
+		height: 165px;
+		border-radius: 50%;
+		background: #fff;
+		box-shadow: 7.5px 8.99px 0px -4px rgba(204,187,96,0.8);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__flex{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	&__block{
+		display: flex;
+		justify-content: space-around;
+		margin-top: 65px;
+		margin-bottom: 105px;
+	}
+	&__text{
+		font-size: 18px;
+		color: #000;
+		font-weight: 300;
+		margin-top: 65px;
+	}
+	&__icon{
+		&:hover{
+			animation: toRightFromLeft 0.3s forwards;
+		}
+	}
+}
