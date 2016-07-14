@@ -890,6 +890,32 @@ th {
   margin-top: 65px;
 }
 .advant__icon:hover{
+
+  @-webkit-keyframes toRightFromLeft {
+
+    from{
+      -webkit-transform: translate(-100%);
+              transform: translate(-100%);
+    }
+
+    to{
+      -webkit-transform: translate(0%);
+              transform: translate(0%);
+    }
+  }
+
+  @keyframes toRightFromLeft {
+
+    from{
+      -webkit-transform: translate(-100%);
+              transform: translate(-100%);
+    }
+
+    to{
+      -webkit-transform: translate(0%);
+              transform: translate(0%);
+    }
+  }
   -webkit-animation: toRightFromLeft 0.3s forwards;
           animation: toRightFromLeft 0.3s forwards;
 }

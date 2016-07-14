@@ -53,6 +53,14 @@
 	}
 	&__icon{
 		&:hover{
+			@keyframes toRightFromLeft {
+				from{
+					transform: translate(-100%);
+				}
+				to{
+					transform: translate(0%);
+				}
+			}
 			animation: toRightFromLeft 0.3s forwards;
 		}
 	}
