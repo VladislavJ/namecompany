@@ -48,4 +48,9 @@
 	&__center{
 		text-align: center;
 	}
+	&__arrow{
+		display: none;
+		cursor: pointer;
+		margin: auto;
+	}
 }

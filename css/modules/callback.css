@@ -100,17 +100,22 @@
 		font-weight: 400;
 		line-height: 20px;
 		margin: 0;
-		display: inline-block;
 	}
 	&__item{
 		max-width: 230px;
 		display: inline-block;
 		vertical-align: top;
 		overflow: hidden;
-		margin-left: 20px;
 	}
 	&__email{
 		margin: 20px 0;
+	}
+	&__phone, &__name{
+		display: inline-block;
+		vertical-align: top;
+	}
+	&__phone{
+		margin-left: 20px;
 	}
 	::-webkit-input-placeholder  { 
 		color: #fff;
