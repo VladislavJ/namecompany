@@ -62,21 +62,21 @@
 		<div class="container">
 			<h3 class="about__title">О нас</h3>
 			<div class="row">
-				<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="col-md-4 col-sm-12 col-xs-12">
 					<div class="about__text">
 						<p class="about__left">10 лет</p>
 						<p class="about__right">Активной деятельности на рынке</p>
 					</div>
 					<p class="about__text1">Лидеры в сфере добычи и производства. <br> Уважаем своих клиентов и гарантируем качество</p>
 				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="col-md-4 col-sm-12 col-xs-12">
 					<div class="about__text">
 						<p class="about__left">100 тыс. тонн</p>
 						<p class="about__right">Песчанника продано</p>
 					</div>
 					<p class="about__text2">Лидеры в сфере добычи и производства. <br> Уважаем своих клиентов и гарантируем качество</p>
 				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="col-md-4 col-sm-12 col-xs-12">
 					<div class="about__text">
 						<p class="about__left">1000 человек</p>
 						<p class="about__right">Благодарных клиентов</p>
@@ -122,34 +122,41 @@
 	<section class="advant">
 		<div class="container">
 			<h3 class="advant__title">Наши приемущества</h3>
-			<div class="row">
-				<div class="advant__block">
-					<div class="advant__flex">
+			<div class="advant__block">
+				<div class="advant__flex">
+					<div class="advant__center">
 						<div class="advant__circle">
 							<img class="advant__icon" src="img/ad1.png" alt="ad1">
 						</div>
-						<p class="advant__text">100% качество</p>
 					</div>
-					<div class="advant__flex">
+					<p class="advant__text">100% качество</p>
+				</div>
+				<div class="advant__flex">
+					<div class="advant__center">
 						<div class="advant__circle">
 							<img src="img/ad2.png" alt="ad2">
 						</div>
-						<p class="advant__text">возможность доставки</p>
 					</div>
-					<div class="advant__flex">
+					<p class="advant__text">возможность доставки</p>
+				</div>
+				<div class="advant__flex">
+					<div class="advant__center">
 						<div class="advant__circle">
 							<img src="img/ad3.png" alt="ad3">
 						</div>
-						<p class="advant__text">справедливая цена</p>
 					</div>
-					<div class="advant__flex">
+					<p class="advant__text">справедливая цена</p>
+				</div>
+				<div class="advant__flex advant__right">
+					<div class="advant__center">
 						<div class="advant__circle">
 							<img src="img/ad4.png" alt="ad4">
 						</div>
-						<p class="advant__text">скидки постоянным клиентам</p>
 					</div>
+					<p class="advant__text">скидки постоянным клиентам</p>
 				</div>
 			</div>
+			<img class="advant__arrow" src="img/arrow.svg" alt="arrow">
 		</div>
 	</section>
 
@@ -157,21 +164,80 @@
 		<div class="container">
 			<h3 class="awards__title">Сертефикаты</h3>
 			<div class="row">
-				<div class="col-md-3">
-					<img src="img/aw1.jpg" alt="aw">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="awards__center">
+						<img class="awards__border" src="img/aw1.jpg" alt="aw">
+					</div>
 				</div>
-				<div class="col-md-3">
-					<img src="img/aw2.jpg" alt="aw">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="awards__center">
+						<img class="awards__border" src="img/aw2.jpg" alt="aw">
+					</div>
 				</div>
-				<div class="col-md-3">
-					<img src="img/aw3.jpg" alt="aw">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="awards__center">
+						<img class="awards__border" src="img/aw3.jpg" alt="aw">
+					</div>
 				</div>
-				<div class="col-md-3">
-					<img src="img/aw4.jpg" alt="aw">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="awards__center">
+						<img class="awards__border" src="img/aw4.jpg" alt="aw">
+					</div>
+				</div>
+			</div>
+				<a class="awards__link" href="#">Еще сертификаты</a>
+		</div>
+	</section>
+
+	<section class="callback">
+		<img class="callback__arrow" src="img/arrow.svg" alt="arrow">
+		<h3 class="callback__title">Написать нам</h3>
+		<div class="container">
+			<div class="callback__wrap">
+				<div class="row">
+					<div class="col-md-6 col-xs-12">
+						<div class="callback__block">
+							<input class="callback__input callback__left" name="name" placeholder="Имя" required="" type="text">
+							<input class="callback__input callback__right" name="email" placeholder="E-mail" type="email">
+						</div>
+						<div class="callback__block">
+							<input class="callback__input callback__style" name="name" placeholder="Тема" required="" type="text">
+						</div>
+						<div class="callback__block">
+							<textarea class="callback__textarea" name="message" id="message" placeholder="Текст сообщения" required=""></textarea>
+						</div>
+						<button id="send" class="callback__button">Отправить</button>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<div class="callback__wrp">
+							<h5 class="callback__info">Адрес:</h5>
+							<p class="callback__text">Украина<br> г. Киев, ул. Саксаганского 15/1 <br> 25011</p>
+							<h5 class="callback__info callback__top">Дополнительно:</h5>
+							<p class="callback__text">Телефон:</p>
+							<div class="callback__item">
+								<p class="callback__text callback__phone">
+									(050)222-33-44;<br>
+									(093)333-44-55
+								</p>
+							</div>
+							<p class="callback__text callback__email">E-mail: r@gmail.com</p>
+							<p class="callback__text">This is Photoshop's version  of Lorem Ipsum. <br> Proin gravida nibh vel velit auctor aliquet.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+		<iframe class="callback__psevdo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.7628550924287!2d30.60464491594481!3d50.48275839291705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d0392d6e3e2b%3A0x3a559376e7c3b3d6!2zNEIsINCy0YPQu9C40YbRjyDQmtGD0YDQvdCw0YLQvtCy0YHRjNC60L7Qs9C-LCA00JEsINCa0LjRl9Cy!5e0!3m2!1sru!2sua!4v1468584162167" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__block">
+				<p class="footer__left">&copy; 2016 - All Right Reserved</p>
+				<p class="footer__right">Made by <span class="footer__upp">Facility</span></p>
+			</div>
+		</div>
+	</footer>
 
 	<script src="js/jquery-1.9.1.min.js"></script>
 	<script src="js/main.js"></script>

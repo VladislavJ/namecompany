@@ -1,0 +1,129 @@
+.callback{
+	font-family: 'Roboto', sans-serif;
+	&__title{
+		color: #131316;
+		font-size: 30px;
+		font-weight: 300;
+		text-transform: uppercase;
+		text-align: center;
+		position: relative;
+		margin-bottom: 80px;
+		margin-top: 0;
+		&:before{
+			content: '';
+			position: absolute;
+			width: 56px;
+			height: 2px;
+			left: 0;
+			right: 0;
+			bottom: -70px;
+			top: 0;
+			margin: auto;
+			border-bottom: 2px solid #ffe600;
+		}
+	}
+	&__arrow{
+		display: block;
+		margin: 25px auto 120px auto;
+		cursor: pointer;
+	}
+	&__input{
+		width: 270px;
+		height: 50px;
+		background-color: #131316;
+		border: 0;
+		box-shadow: none;
+		padding-left: 25px;
+		color: #fff;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 50px;
+		box-sizing: border-box;
+		outline: none;
+	}
+	&__left{
+		float: left;
+	}
+	&__right{
+		float: right;
+	}
+	&__wrap{
+		margin-left: 10px;
+		overflow: hidden;
+	}
+	&__block{
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+	&__style{
+		width: 100%;
+	}
+	&__textarea{
+		resize: none;
+		background-color: #131316;
+		border: 0;
+		padding: 15px;
+		height: 180px;
+		width: 100%;
+		color: #fff;
+		box-sizing: border-box;
+		font-size: 15px;
+		outline: none;
+	}
+	&__button{
+		text-transform: uppercase;
+		font-size: 20px;
+		font-weight: 400;
+		color: #131316;
+		background: #f5d31d;
+		border: 0;
+		width: 100%;
+		height: 50px;
+	}
+	&__wrp{
+		margin-left: 180px;
+		margin-bottom: 90px;
+	}
+	&__info{
+		color: #131316;
+		font-size: 24px;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin: 0 0 40px 0;
+	}
+	&__top{
+		margin-top: 40px;
+	}
+	&__text{
+		color: #88888a;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 20px;
+		margin: 0;
+		display: inline-block;
+	}
+	&__item{
+		max-width: 230px;
+		display: inline-block;
+		vertical-align: top;
+		overflow: hidden;
+		margin-left: 20px;
+	}
+	&__email{
+		margin: 20px 0;
+	}
+	::-webkit-input-placeholder  { 
+		color: #fff;
+		font-weight: 400;
+	}
+	:-moz-placeholder { 
+		color: #fff;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	:-ms-input-placeholder { 
+		color: #fff;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+}

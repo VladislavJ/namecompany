@@ -1,0 +1,24 @@
+.footer{
+	background: #131316;
+	font-family: 'Roboto', sans-serif;
+	&__block{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 105px;
+	}
+	&__left{
+		font-size: 13px;
+		color: #f5d31d;
+		font-weight: 400;
+	}
+	&__right{
+		font-size: 14px;
+		color: #fff;
+		font-weight: 400;
+		margin-right: 185px;
+	}
+	&__upp{
+		text-transform: uppercase;
+	}
+}

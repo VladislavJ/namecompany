@@ -4,6 +4,17 @@
 			font-size: 12px;
 		}
 	}
+	.about{
+		&__left{
+			font-size: 17px;
+			&::after{
+				bottom: 4px;
+			}
+		}
+		&__right{
+			font-size: 15;
+		}
+	}
 }
 @media only screen and (max-width : 1024px){
 	.header{
@@ -94,6 +105,108 @@
 		}
 		&__topmenu{
 			line-height: 20px;
+		}
+	}
+}
+@media only screen and (min-width : 991px){
+	.awards{
+		&__border{
+			width: 100%;
+		}
+	}
+}
+@media only screen and (max-width : 991px){
+	.awards{
+		&__border{
+			margin-bottom: 20px;
+		}
+		&__link{
+			display: flex;
+		}
+	}
+	.about{
+		padding: 0;
+		&__title{
+			margin-bottom: 70px;
+			margin-top: 30px;
+		}
+		&__left{
+			font-size: 24px;
+			margin-right: 0;
+			&:after{
+				display: none;
+			}
+		}
+		&__right{
+			font-size: 20px;
+			margin: 0;
+		}
+		&__text{
+			display: block;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		&__text1, &__text2, &__text3{
+			font-size: 12px;
+			text-align: center;
+			margin-bottom: 65px;
+		}
+	}
+	.advant{
+		&__flex{
+			width: 100%;
+			height: auto;
+			border-bottom: 1px solid #ffe600;
+			float: none;
+			margin: auto;
+			&:last-child{
+				border: 0;
+			}
+		}
+		&__center{
+			margin-top: 25px;
+		}
+		&__text{
+			margin-top: 20px;
+		}
+		&__right{
+			float: right;
+		}
+	}
+}
+@media only screen and (max-width : 857px){
+	.advant{
+		&__flex{
+			width: 50%;
+		}
+		&__text{
+			margin-top: 30px;
+		}
+	}
+}
+@media only screen and (max-width : 582px){
+	.products{
+		padding-bottom: 0;
+		&__block{
+			display: block;
+		}
+		&__square{
+			width: 50%;
+			float: left;
+			margin: 0;
+			box-shadow: none;
+		}
+	}
+}
+@media only screen and (max-width : 480px){
+	.advant{
+		&__flex{
+			width: 100%;
+		}
+	}
+	.awards{
+		&__link{
+			display: flex;
 		}
 	}
 }
