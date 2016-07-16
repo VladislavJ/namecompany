@@ -118,6 +118,13 @@
 		}
 	}
 }
+@media only screen and (max-height : 991px){
+	.header{
+		&__block{
+			padding-top: 120px;
+		}
+	}
+}
 @media only screen and (min-width : 991px){
 	.awards{
 		&__border{

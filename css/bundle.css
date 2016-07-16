@@ -440,12 +440,24 @@ th {
 	font-family: 'Roboto', sans-serif;
 	background: url(../img/bg1.jpg) no-repeat center center;
 	height: 100vh;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .header__main{
   background: #000;
   height: 120px;
   width: 100%;
   position: fixed;
+  left: 0;
+  top: 0;
   z-index: 1;
 }
 .header__topmenu{
@@ -563,7 +575,6 @@ th {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
 }
 .header__block{
   text-align: center;
@@ -1281,6 +1292,11 @@ th {
   }
 	.header__topmenu{
     line-height: 20px;
+  }
+}
+@media only screen and (max-height : 991px){
+	.header__block{
+    padding-top: 120px;
   }
 }
 @media only screen and (min-width : 991px){
