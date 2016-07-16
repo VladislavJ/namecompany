@@ -1,7 +1,7 @@
 .header{
 	font-family: 'Roboto', sans-serif;
 	background: url(../img/bg1.jpg) no-repeat center center;
-	height: 100vh;
+	height: calc(100vh - 120px);
 	position: relative;
 	display: flex;
 	justify-content: center;

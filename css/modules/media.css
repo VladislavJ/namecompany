@@ -28,6 +28,7 @@
 }
 @media only screen and (max-width : 1024px){
 	.header{
+		height: calc(100vh - 60px);
 		background-position: -805px 60px;
 		&__main{
 			height: 60px;
@@ -117,13 +118,13 @@
 		}
 	}
 }
-@media only screen and (max-height : 991px){
+/*@media only screen and (max-height : 991px){
 	.header{
 		&__block{
 			padding-top: 120px;
 		}
 	}
-}
+}*/
 @media only screen and (min-width : 991px){
 	.awards{
 		&__border{
