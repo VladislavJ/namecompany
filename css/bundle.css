@@ -1237,7 +1237,6 @@ th {
         -ms-flex-align: end;
                 -ms-grid-row-align: end;
             align-items: end;
-    padding-bottom: 25px;
   }
 	.header__menu{
     height: 60px;
